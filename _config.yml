@@ -1,8 +1,47 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: SGCCRfC Wiki
+description: Scientific Grid Computing and Cloud Computing Resources for Community
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: "https://sgccrfc.github.io/SGCCRfC-Wiki"
 
+# Enable search
+search_enabled: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Where docs are stored
+collections:
+  docs:
+    output: true
+    permalink: "/:collection/:path/"
+
+# Navigation
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      nav_order: 1
+
+# Include custom CSS
+sass:
+  load_paths:
+    - assets/css
+
+# Auxiliary links
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "SGCCRfC Main Site":
+    - "https://sgccrfc.org"
+
+# Color for callouts
+callouts:
+  info:
+    title: Info
+    color: blue
+  warning:
+    title: Warning
+    color: yellow
+  danger:
+    title: Danger
+    color: red
+
