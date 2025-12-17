@@ -1,0 +1,43 @@
+/* Custom overrides for SGCCRfC Wiki */
+
+/* Improve headings */
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+/* CUSTOM THEME STYLES */
+/* Logo sizing (if needed) */
+.top-bar {
+  height: 70px;
+}
+
+
+/* Logo spacing if you add a header logo */
+.site-header .site-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Callouts improvements */
+.callout {
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* Table styling */
+table {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Extra spacing between sections */
+.main-content {
+  padding-bottom: 60px;
+}
+
+/* Footer customization */
+.site-footer {
+  padding-top: 2rem;
+  font-size: 0.85rem;
+}
+

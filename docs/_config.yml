@@ -1,0 +1,62 @@
+# docs/_config.yml
+title: SGCCRfC Wiki Github IO
+description: Scientific Grid Computing and Cloud Computing Resources for Community
+
+# SITE URL + BASE (important for project pages)
+url: "https://sgccrfc.github.io"       # your GitHub Pages domain (no trailing slash)
+baseurl: "/SGCCRfC-Wiki.github.io"              # repository name as base path; if using user/org site, set "".
+
+# Use the Just-the-Docs remote theme (recommended for GitHub Pages)
+remote_theme: pmarsceill/just-the-docs
+
+# Plugins (GitHub Pages supports these; include in Gemfile if running locally)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Logo & favicon (use assets inside docs so links resolve under baseurl)
+logo: "/assets/img/logo.png"
+favicon_ico: "/assets/img/logo.png"
+
+# Just-the-Docs options
+search_enabled: true
+back_to_top: true
+back_to_top_text: "Back to top"
+color_scheme: light
+
+# Custom CSS (keeps your existing assets/css/custom.css)
+assets:
+  sources:
+    - assets/css
+
+# Markdown / kramdown (modern Jekyll)
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+# Exclude files from builds
+exclude:
+  - "node_modules"
+  - "vendor"
+  - "README.md"
+
+# Optional: precise navigation (uncomment + edit if you want fixed nav instead of relying on nav_order)
+# nav:
+#   - Home: index.md
+#   - Introduction:
+#     - History: introduction/history.md
+#     - Mission: introduction/mission.md
+#   - Domains:
+#     - Index: domains/index.md
+#     - Computer Science: domains/computer-science.md
+#     - Electronics: domains/electronics.md
+#     - Mechanical: domains/mechanical-engineering.md
+#     - Civil: domains/civil-engineering.md
+#   - Community:
+#     - Contact: community/contact.md
+#     - Contribute: community/contribute.md
+
+# Optional: SEO defaults (jekyll-seo-tag will use these)
+author: SGCCRfC
+
